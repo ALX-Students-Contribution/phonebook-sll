@@ -22,4 +22,6 @@ typedef struct contactlist
 	struct contactlist *next;
 } contact;
 
+contact *insert_node_at_index(contact **head, unsigned int index, char *name, unsigned int phone_number, char *email_address);
+void print_list(contact *head);
 #endif /* MAIN_H */
