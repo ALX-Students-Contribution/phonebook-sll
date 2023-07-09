@@ -24,4 +24,7 @@ typedef struct contactlist
 
 contact *insert_node_at_index(contact **head, unsigned int index, char *name, unsigned int phone_number, char *email_address);
 void print_list(contact *head);
+contact *insert_node_front(contact **head, char *name, unsigned int phone_number, char *email_address);
+contact *insert_node_end(contact **head, char *name, unsigned int phone_number, char *email_address);
+
 #endif /* MAIN_H */
